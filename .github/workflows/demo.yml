@@ -2,7 +2,7 @@ name: First CI/CD Job
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Print greeting msg
         run: echo "welcome to github actions"       
